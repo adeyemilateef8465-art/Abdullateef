@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html>
 
+    <head>
+        <title> Teamable </title>   
+        <link rel="stylesheet" href="style.css">
+        <script src="ja.js"></script>
+    </head>
+
+    <body>
+
+        <div id="display-view">
+            <h1>User profile</h1>
+            <img src="dog.jpg">
+
+            <span>Name: </span><b id="name">Abdullateef</b>
+            <hr />
+
+            <span>Email: </span><b id="email">adeyemilatef@example.com</b>
+            <hr />
+
+            <span>Interests: </span><b id="interest">coding</b>
+            <hr />
+            <button onclick="handleEditProfile()">Edit profile</button>
+        </div>
+
+
+        
+        <div id="edit-view">
+            <h1>User profile</h1>
+            <img src="dog.jpg">
+
+            <span>Name: </span>
+            <input type="text" id="input-name" placeholder="Abdullatef">
+            <hr />
+
+            <span>Email: </span>
+            <input type="text" id="input-email" placeholder="adeyemilateef@example.com">
+            <hr />
+
+            <span>Interests: </span>
+            <input type="text" id="input-interest" placeholder="coding">
+            <hr />
+            <button onclick="handleUpdateProfile()">Update profile</button>
+        </div>
+
+    </body>
+
+</html>
